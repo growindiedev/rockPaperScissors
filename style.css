@@ -66,11 +66,11 @@ button {
   font-size: 60px;
   background-color: #393e46;
   border-radius: 20px;
-  border: none;
+  /* border: none; */
 }
 
 .copyright {
-  margin: 25px;
+  margin-top: auto;
   text-align: center;
 }
 
