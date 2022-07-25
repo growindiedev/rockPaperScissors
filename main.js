@@ -10,6 +10,7 @@ let rank = {
 };
 
 let gameCount = 0;
+// first to score 5 points win
 
 function getComputerChoice() {
   let randInt = Math.floor(Math.random() * 3) + 1;
@@ -22,6 +23,7 @@ function playRound(playerSelection) {
     if (playerSelection === "paper") {
       if (computerSelection === "rock") {
         score.player += 1;
+        //could be an alert
         return "paper wins";
       } else {
         if (computerSelection === "scissors") {
