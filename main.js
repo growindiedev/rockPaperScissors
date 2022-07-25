@@ -64,10 +64,3 @@ function playRound(playerSelection) {
     }
   }
 }
-
-function game() {
-  for (let i = 0; i < 5; i++) {
-    playRound(playerSelection);
-  }
-  return score;
-}
